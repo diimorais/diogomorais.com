@@ -557,9 +557,11 @@ p { margin: 0; }
   font-size: clamp(64px, 11vw, 160px); line-height: .9; letter-spacing: -0.05em;
   color: var(--laranja);
 }
-.stat-label { font-family: var(--font-display); font-size: clamp(22px, 2.6vw, 34px); font-weight: 600; max-width: 16ch; line-height: 1.1; }
+.stat-label { font-family: var(--font-display); font-size: clamp(22px, 2.6vw, 34px); font-weight: 600; max-width: 26ch; line-height: 1.1; }
 .stat-source { font-size: 13px; color: var(--muted); width: 100%; }
 .stat-extra { grid-column: 1 / -1; font-size: clamp(17px, 1.6vw, 20px); }
+/* número de destaque dentro da ficha do case (resultado no topo) */
+.meta-stat { font-family: var(--font-display); font-weight: 800; color: var(--laranja); font-size: 1.35em; letter-spacing: -0.02em; }
 .stat-extra b { font-family: var(--font-display); color: var(--laranja); font-size: 1.3em; letter-spacing: -0.02em; }
 .video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(16px, 2vw, 28px); }
 .video-card .frame { position: relative; aspect-ratio: 16 / 9; background: var(--preto); border-color: var(--bege); }
